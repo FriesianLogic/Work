@@ -1,0 +1,57 @@
+
+Saved New Ideas for Beacon BLE + Dynamic Ad Media Layer Project
+
+Dynamic Ad Media Layer:
+- After the Preferences screen, dynamically insert video advertisements before, during, or after app category pages.
+- Three video ad placement options:
+  - Before the app category page loads.
+  - At the bottom of the app category page.
+  - Overlay on top of the app category page.
+- Ads should end with a Call-To-Action (CTA) to prompt users to install or engage with featured apps.
+
+Store Mode Activation (Gear Icon):
+- Add a gear icon to the Welcome Screen, positioned at the bottom-left.
+- Touching the icon prompts the user to enter a store number.
+- If a valid store number is entered, the app enters Store Mode:
+  - Bypasses the normal customer UX temporarily.
+  - Defers the customer UX flow until a later scheduled time (e.g., later that night or the next day).
+
+Personalized Ads Consent Checkbox:
+- Add a consent checkbox to the Welcome Screen for personalized ads.
+- Text to display: "Tap Accept for customized Personalized Ads."
+- User must tap "Accept" to proceed.
+
+Mandatory Preferences Selection:
+- Users must select at least 5 categories to continue past the Preferences screen.
+- Categories are presented with icons (not checkboxes) in a grid layout.
+- Show the most popular categories top left to bottom right.
+- Only show 8 categories on the screen.
+
+Dynamic Category Content:
+- After the user selects categories, only show app category screens matching their selections.
+
+Device Profiling:
+- Detect and profile device quality (high-end, mid-tier, low-end).
+  - Example devices:
+    - High-end: Samsung S25 Ultra, Moto G 5G 2025
+    - Mid-tier: Samsung A15
+    - Low-end: Samsung A36
+- Profile based on RAM, CPU, storage space, etc.
+
+Network Type Detection:
+- Detect whether the device is connected to Wi-Fi or Carrier network.
+- Prioritize Wi-Fi connections for dynamic refreshes and ad loads.
+
+AI Dynamic Optimization:
+- AI engine will:
+  - Monitor device analytics: RAM usage, unlock patterns, storage space, network type, device type, app behaviors.
+  - Predict best timing for lock/unlock cycles and refreshes.
+  - Optimize ad refresh scheduling for best performance and battery efficiency.
+
+New UX Flow:
+1. Welcome Screen (with gear icon + consent checkbox)
+2. Preferences Screen (category selection)
+3. Dynamic Video Ad (before/during/after category pages)
+4. Category Pages (only selected categories shown)
+5. Thank You Screen
+6. Track Consent + Preferences Selection (log selected categories and consent choice)
